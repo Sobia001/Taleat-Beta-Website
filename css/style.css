@@ -14,3 +14,273 @@ body {
   font-family: "Poppins", sans-serif !important;
   font-style: normal;
 }
+
+/* ------------------------------Main Header---------------------------------- */
+
+.main__logo {
+  width: 30%;
+}
+
+.main__logo img {
+  width: 30%;
+}
+
+.main__button {
+  background: #cc051c;
+  border-radius: 10px;
+  padding: 10px 10px;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--color-1);
+}
+
+.main__button:hover {
+  background: var(--color-6);
+  color: var(--color-1);
+}
+
+.main__button img {
+  width: 60%;
+}
+/* ------------------------------Main Section---------------------------------- */
+
+/* ----------------Carousel Banner 1--------------------- */
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: black;
+  width: 4rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 4%;
+}
+
+.carousel-control-prev-icon {
+  background-image: none;
+}
+
+.carousel-control-next-icon {
+  background-image: none;
+}
+
+.fa__solid,
+.fas {
+  font-weight: 900;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+/* ----------------Banner 2--------------------- */
+.banner__2__row {
+  /* gap: 45px; */
+}
+
+.anchor__tag {
+  text-decoration: none;
+}
+
+.anchor__card {
+  display: flex;
+  gap: 15px;
+}
+
+.anchor__card__img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.anchor__card__img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.anchor__card__img__1 {
+  width: 110%;
+  display: flex;
+  justify-content: center;
+}
+
+.anchor__card__img__1 img {
+  width: 110%;
+  object-fit: cover;
+}
+
+.anchor__card__content {
+  margin: auto;
+  color: var(--color-2);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* ----------------Banner 3--------------------- */
+
+.banner__3__heading {
+  font-weight: 600;
+  font-size: 40px;
+  color: var(--color-2);
+}
+
+.search__bar {
+  position: relative;
+  display: inline-block;
+}
+
+.search__bar input[type="text"] {
+  padding-right: 50px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: var(--color-7);
+  border: none;
+  border-radius: 10px;
+}
+
+.search__bar::placeholder {
+  color: var(--color-3);
+}
+
+.search__bar .search__icon {
+  position: absolute;
+  top: 50%;
+  right: 18px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: var(--color-3);
+}
+
+/* .......... */
+/*----  Main Style  ----*/
+
+#cards_landscape_wrap-2 .card-flyer {
+  border-radius: 5px;
+}
+#cards_landscape_wrap-2 .card-flyer .image-box {
+  background: #ffffff;
+  overflow: hidden;
+}
+#cards_landscape_wrap-2 .card-flyer .image-box img {
+  -webkit-transition: all 0.9s ease;
+  -moz-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
+  -ms-transition: all 0.9s ease;
+  width: 93%;
+  height: 200px;
+}
+#cards_landscape_wrap-2 .card-flyer:hover .image-box img {
+  opacity: 0.7;
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
+}
+#cards_landscape_wrap-2 .card-flyer .image-box {
+  text-align: center;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box .text-container {
+  padding: 15px 18px;
+}
+#cards_landscape_wrap-2 .card-flyer {
+  background: #ffffff;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  /* box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4); */
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+#cards_landscape_wrap-2 .card-flyer:hover {
+  background: #fff;
+  box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  /* margin-top: 50px; */
+}
+#cards_landscape_wrap-2 .card-flyer .text-box p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: var(--color-3);
+}
+#cards_landscape_wrap-2 .card-flyer .text-box h6 {
+  margin-top: 0px;
+  margin-bottom: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Roboto Black", sans-serif;
+  letter-spacing: 1px;
+  color: var(--color-2);
+}
+
+/* ................. */
+
+/* ------------------------------Main Footer---------------------------------- */
+
+/* #################################Media Query################################# */
+@media only screen and (max-width: 992px) {
+  /* Styles */
+}
+@media only screen and (max-width: 768px) {
+  .main__logo {
+    width: 40%;
+  }
+
+  .main__logo img {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 10%;
+  }
+
+  /* .anchor__card {
+    width: 350px;
+  }
+
+  .anchor__card__img {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+
+  .anchor__card__img img {
+    width: 50%;
+    object-fit: cover;
+  }
+
+  .anchor__card__img__1 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+
+  .anchor__card__img__1 img {
+    width: 50%;
+    object-fit: cover;
+  } */
+}
+
+@media only screen and (max-width: 425px) {
+  .main__logo {
+    width: 50%;
+  }
+
+  .main__logo img {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  /* Styles */
+}
