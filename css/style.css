@@ -52,7 +52,7 @@ body {
 }
 
 .carousel-control-next,
-.carousel-control-prev {
+.carousel__control__prev {
   width: 4%;
 }
 
@@ -148,6 +148,68 @@ body {
   transform: translateY(-50%);
   pointer-events: none;
   color: var(--color-3);
+}
+
+/* .banner__3 {
+  padding-bottom: 100px;
+} */
+
+.carousel__control__next,
+.carousel__control__prev {
+  position: absolute;
+  top: 0;
+  bottom: -75rem;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+
+.carousel__control__next {
+  right: 27rem;
+}
+
+.carousel__control__prev {
+  left: 27rem;
+}
+
+.carousel__control__next__icon {
+  border-radius: 50px;
+}
+
+.carousel__control__prev__icon {
+  border-radius: 50px;
+}
+
+.carousel__control__next__icon,
+.carousel__control__prev__icon {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+  background-color: var(--color-3) !important;
+}
+
+.carousel__control__next__icon,
+.carousel__control__prev__icon:hover {
+  /* background-color: var(--color-4) !important; */
+}
+
+.fa__solid__2,
+.fas {
+  font-weight: 900;
+  font-size: 30px;
+  color: #ffffff;
 }
 
 /* .......... */
