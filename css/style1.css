@@ -72,9 +72,6 @@ body {
 }
 
 /* ----------------Banner 2--------------------- */
-.banner__2__row {
-  /* gap: 45px; */
-}
 
 .anchor__tag {
   text-decoration: none;
@@ -150,10 +147,6 @@ body {
   color: var(--color-3);
 }
 
-/* .banner__3 {
-  padding-bottom: 100px;
-} */
-
 .carousel__control__next,
 .carousel__control__prev {
   position: absolute;
@@ -191,18 +184,13 @@ body {
 
 .carousel__control__next__icon,
 .carousel__control__prev__icon {
-  display: inline-block;
   width: 4rem;
   height: 4rem;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 100% 100%;
   background-color: var(--color-3) !important;
-}
-
-.carousel__control__next__icon,
-.carousel__control__prev__icon:hover {
-  /* background-color: var(--color-4) !important; */
+  display: flex;
 }
 
 .fa__solid__2,
@@ -210,10 +198,12 @@ body {
   font-weight: 900;
   font-size: 30px;
   color: #ffffff;
+  margin: auto;
 }
 
-/* .......... */
-/*----  Main Style  ----*/
+.pb-6 {
+  margin-bottom: 4rem;
+}
 
 #cards_landscape_wrap-2 .card-flyer {
   border-radius: 5px;
@@ -251,7 +241,6 @@ body {
   -ms-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
-  /* box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4); */
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 #cards_landscape_wrap-2 .card-flyer:hover {
@@ -283,11 +272,140 @@ body {
   color: var(--color-2);
 }
 
-/* ................. */
-
 /* ------------------------------Main Footer---------------------------------- */
 
 /* #################################Media Query################################# */
+@media (min-width: 992px) and (max-width: 1240px) {
+  .carousel__control__next {
+    right: 21rem;
+  }
+
+  .carousel__control__prev {
+    left: 21rem;
+  }
+
+  .carousel__control__next,
+  .carousel__control__prev {
+    position: absolute;
+    top: 0;
+    bottom: -78rem;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .carousel__control__next {
+    right: 16rem;
+  }
+
+  .carousel__control__prev {
+    left: 16rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .carousel__control__next {
+    right: 11rem;
+  }
+
+  .carousel__control__prev {
+    left: 11rem;
+  }
+
+  .carousel__control__next,
+  .carousel__control__prev {
+    position: absolute;
+    top: 0;
+    bottom: -149rem;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .carousel__control__next {
+    right: 16rem;
+  }
+
+  .carousel__control__prev {
+    left: 16rem;
+  }
+
+  .carousel__control__next,
+  .carousel__control__prev {
+    position: absolute;
+    top: 0;
+    bottom: -78rem;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+  .carousel__control__next {
+    right: 5rem;
+  }
+
+  .carousel__control__prev {
+    left: 5rem;
+  }
+
+  .carousel__control__next,
+  .carousel__control__prev {
+    position: absolute;
+    top: 0;
+    bottom: -299rem;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 60px !important;
+  }
+}
+
 @media only screen and (max-width: 992px) {
   /* Styles */
 }
@@ -305,32 +423,6 @@ body {
   .carousel-control-prev {
     width: 10%;
   }
-
-  /* .anchor__card {
-    width: 350px;
-  }
-
-  .anchor__card__img {
-    width: 100%;
-    display: flex;
-    justify-content: end;
-  }
-
-  .anchor__card__img img {
-    width: 50%;
-    object-fit: cover;
-  }
-
-  .anchor__card__img__1 {
-    width: 100%;
-    display: flex;
-    justify-content: end;
-  }
-
-  .anchor__card__img__1 img {
-    width: 50%;
-    object-fit: cover;
-  } */
 }
 
 @media only screen and (max-width: 425px) {
