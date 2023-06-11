@@ -274,6 +274,69 @@ body {
 
 /* ------------------------------Main Footer---------------------------------- */
 
+.footer__bg {
+  background-color: var(--color-5);
+}
+
+.footer__img {
+  width: 100%;
+}
+
+.footer__img img {
+  width: 40%;
+}
+
+.footer__links h3 {
+  font-weight: 600;
+  font-size: 32px;
+  color: var(--color-2);
+}
+
+.footer__links ul {
+  padding-left: 0;
+}
+
+.footer__links ul li {
+  list-style-type: none;
+}
+
+.footer__links ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--color-6);
+}
+
+.footer__menu {
+  width: 100%;
+}
+
+.footer__menu img {
+  width: 100%;
+}
+
+.social__links {
+  font-size: 35px;
+  display: flex;
+  /* gap: 40px; */
+}
+
+.fa__pinterest {
+  color: var(--color-4);
+}
+
+.fa__twitter {
+  color: #1b18da;
+}
+
+.fa__facebook {
+  color: #1b18da;
+}
+
+.fa__instagram {
+  color: #cc051c;
+}
+
 /* #################################Media Query################################# */
 @media (min-width: 992px) and (max-width: 1240px) {
   .carousel__control__next {
