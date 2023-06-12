@@ -48,12 +48,16 @@ body {
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   background-color: black;
-  width: 4rem;
+  /* width: 4rem; */
 }
 
 .carousel-control-next,
-.carousel__control__prev {
+.carousel-control-prev {
   width: 4%;
+}
+
+.carousel-control-prev {
+  /* left: -69px; */
 }
 
 .carousel-control-prev-icon {
@@ -335,6 +339,22 @@ body {
 
 .fa__instagram {
   color: #cc051c;
+}
+
+.footer__bg__1 {
+  background-color: var(--color-6);
+}
+
+.footer__bg__1 p {
+  color: var(--color-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__bg__1 p a {
+  color: var(--color-1);
+  text-decoration: none;
 }
 
 /* -----------------------------------Side Menu--------------------------------- */
@@ -847,7 +867,7 @@ element.style {
   .carousel__control__prev {
     position: absolute;
     top: 0;
-    bottom: -78rem;
+    bottom: -104rem;
     z-index: 1;
     display: flex;
     align-items: center;
@@ -895,6 +915,52 @@ element.style {
   .carousel-control-prev {
     width: 60px !important;
   }
+
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    height: 60px;
+  }
+
+  .fa__solid,
+  .fas {
+    font-weight: 900;
+    font-size: 20px;
+    color: #ffffff;
+  }
+
+  /* .anchor__card__img__1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .anchor__card__img__1 img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .anchor__card__img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .anchor__card__img img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .anchor__card {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+  }
+
+  .anchor__card__content {
+    color: var(--color-2);
+    font-weight: 600;
+    font-size: 20px;
+  } */
 }
 
 @media only screen and (max-width: 992px) {
